@@ -1,1 +1,2 @@
-#!/bin/bash /n ls-map --group-directories-first
+#!/bin/bash
+ls-map --group-directories-first
