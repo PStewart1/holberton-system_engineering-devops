@@ -1,1 +1,1 @@
-This is the repo for Project 0x00-shell_basics
+This is the repo for System Engineering and Devops projects
