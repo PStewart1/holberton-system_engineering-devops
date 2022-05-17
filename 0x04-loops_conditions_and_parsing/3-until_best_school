@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# A Bash script that displays Best School 10 times.
+# Write a Bash script that displays Best School 10 times.
+# Requirements:
+#    You must use the until loop (for and while are forbidden)
+
 
 n=0
 
