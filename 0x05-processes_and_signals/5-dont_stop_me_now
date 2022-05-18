@@ -5,5 +5,5 @@
 # Requirements:
 #    You must use kill
 
-PID=$(ps -auxf | grep -m 1 "4-to_infinity_and_beyond" | cut -d" " -f6,7)
+PID=$(pgrep -f "infinity")
 kill "$PID"
