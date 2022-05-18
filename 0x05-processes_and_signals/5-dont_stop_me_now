@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2009
+
+# Write a Bash script that stops 4-to_infinity_and_beyond process.
+# Requirements:
+#    You must use kill
+
+PID=$(ps -auxf | grep -m 1 "beyond" | cut -d" " -f6,7)
+kill "$PID"
