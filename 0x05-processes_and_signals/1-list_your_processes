@@ -6,4 +6,4 @@
 #   Show process hierarchy
 
 
-ps -auxf --sort=-pid
+ps -auxf --sort=-user
